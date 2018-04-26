@@ -65,7 +65,7 @@ print(promedio)
 
 //hacer un arreglo de diez numeros y determinar cual es el numero  mayor y cual es el numero menord del arreglo
 
-var numb:[Int] = []
+/*var numb:[Int] = []
 for i in 0..<10 {
     var mayorMenor = Int(arc4random_uniform(99) + 1))
 
@@ -91,6 +91,30 @@ for i in 0..<10 {
 print(resultA)
 print(resultB)
 print(resultC)
+
+
+
+//  librerias
+
+var vengadoresMovies =  ["iron man":3, "capitan america":2, "hulk":2, "thor":2]*/
+
+
+//if y switch 
+
+     /*var numb1 = 97
+    
+    if numb1 % 2 == 0 {
+        print("es par")
+        }
+    else {
+        print("es impar")
+}  */
+
+// ejercicio de la tienda
+
+ 
+
+
 
 
 
