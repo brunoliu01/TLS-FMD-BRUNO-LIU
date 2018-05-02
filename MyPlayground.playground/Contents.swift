@@ -112,7 +112,83 @@ var vengadoresMovies =  ["iron man":3, "capitan america":2, "hulk":2, "thor":2]*
 
 // ejercicio de la tienda
 
+
+
+/*var CantPro = 40
  
+ if CantPro <= 25 {
+ print("el precio unitario es 27.7")
+ }
+ 
+ if CantPro > 25 {
+ print("el precio unitario es 25.5")
+ 
+ }
+ 
+ if CantPro > 51 {
+ print("el precio unitario es 23.3")
+ }
+ 
+ if  CantPro > 76 {
+ print("el precio unitario es 21.5")
+ }
+ 
+ 
+ 
+ if CantPro > 50 {
+ print(CantPro*15/100)
+ }
+ else {
+ print(CantPro*5/100)
+ }  */
+
+
+
+
+
+/*var nota1 = 10
+ var nota2 = 15
+ var nota3 = 19
+ 
+ if(nota3>10) {
+ nota3 = nota3 + 2
+ }
+ 
+ print((nota1+nota2+nota3)/3) */
+
+
+
+
+
+/* var  donacion = 9000
+ 
+ if donacion > 10000 {
+ print("\(donacion*30/100) es donado a salud y \(donacion*50/100) es donado al comedor de niños")
+ }
+ else {
+ print("\(donacion*25/100) es donado a salud y \(donacion*60/100) es donado al comedor de niños")
+ } */
+
+
+
+var categoria = "xx"
+var sexo = "femenino"
+var edad = 25
+
+if (sexo=="femenino") {
+    if(edad<25) {
+        categoria = "FA"
+    }
+    else {
+        categoria = "FB"
+    }
+} else { //masculino
+    if ( edad<25) {
+        categoria = "MA"
+    }
+    else {
+        categoria = "MB"
+}
 
 
 
