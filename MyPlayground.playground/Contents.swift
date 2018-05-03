@@ -191,6 +191,85 @@ if (sexo=="femenino") {
 }
 
 
+/*
+ // declaro las variables
+ var tarifaFija = 0.0
+ var montoPagar = 0.0
+ 
+ //ingreso de datos
+ var horas = 5.0
+ var dia = "lunes"
+ 
+ //procesamiento
+ if (dia == "lunes" ||dia == "martes" || dia == "miercoles" || dia == "jueves" ) {
+ tarifaFija = 3.5
+ } else if  (dia == "vienes" || dia == "sabado") {
+ tarifaFija = 4.5
+ }
+ else {//domingo
+ tarifaFija = 2.5
+ }
+ 
+ montoPagar = tarifaFija * horas ;
+ //salida de datos
+ 
+ print("monto a pagarr\(monto a pagar)") */
+
+
+
+/*var categorias = "xx"
+ var promedio = 14
+ 
+ if promedio == 17 {
+ categorias = "A"
+ } else if (promedio==14 || promedio==15 || promedio==16 || promedio==17){
+ categorias = "B"
+ } else if (promedio==12 || promedio==13 || promedio==14) {
+ categorias = "C"
+ } else {
+ categorias = "D"
+ }
+ 
+ print("La categoria del estudiante es \(categorias)")*/
+
+
+
+
+/* var estadoC = 5
+ 
+ if estadoC == 1 {
+ print("soltero")
+ }
+ else if estadoC == 2 {
+ print("casado")
+ }
+ 
+ else if estadoC == 3 {
+ print("viudo")
+ }
+ 
+ else if estadoC == 4 {
+ print("divorciado")
+ }
+ 
+ else  estadoC > 4  {
+ print("error")
+ }     */
+
+
+
+/*var nombreMes = 2
+ 
+ switch nombreMes {
+ case 1:
+ print("este es el mes de enero")
+ case 2:
+ print("este es el mes de febrero")
+ default:
+ print("no hay meses")
+ break;
+ }
+ */
 
 
 
