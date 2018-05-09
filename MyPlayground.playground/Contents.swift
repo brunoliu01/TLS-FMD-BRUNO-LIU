@@ -348,7 +348,7 @@ for num in 1.stride(through: 10, by: 2) {
     print("recorremos los numeros\(num)")
 }  */
 
-var diasSemana = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+/*var diasSemana = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
 
 for d in dias {
     if (d == "miercoles") {
@@ -356,7 +356,19 @@ for d in dias {
     } else {
         print("no existe en dias")
     }
+}     */
+
+
+let number0fLegs = ["spider": 8; "ant": 6, "cat":4]
+for (animalName, legCount) in number0fLegs {
+    print("\(animalName)s have \(legCount) legs")
 }
+
+// ants have 6 legs
+// spiders have 8 legs
+// cats have 4 legs
+ 
+
 
 
 
