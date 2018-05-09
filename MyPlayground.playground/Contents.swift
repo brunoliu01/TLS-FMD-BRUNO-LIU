@@ -1,7 +1,7 @@
 
 import UIKit
 
-var matrizCadenas  = ["uno", "dos", "tres", "cuatro"]
+/*var matrizCadenas  = ["uno", "dos", "tres", "cuatro"]
 var matrizNumero  = [1,2,3,4]
 var matrizMixta : [Any] = ["uno",2,"tres",4,true]
 let matrizCadenaTipificada: [String] = ["cinco", "seis", "siete"]
@@ -34,18 +34,18 @@ for i in 0..<10 {
     
   xnumeros.append(Int(arc4random_uniform(99) + 1))
 
-}
+}*/
 
 //imprimo lso numero pares del arreglo al zar
 
-var numAzar2:[Int] = []
+/*var numAzar2:[Int] = []
 for i in 0..<10 {
     var numero = Int(arc4random_uniform(99) + 10)
     if numero % 2 == 0 {
         print(numero)
     }
     numAzar2.append(numero)
-}
+}*/
 
 
 //genere un arreglo con 10 numeros al azar
@@ -53,7 +53,7 @@ for i in 0..<10 {
 //imprimir la suma de los items del arreglo
 //imprimir el promedio de la suma de los items del arreglo
 
-var resultado:[Int] = []
+/*var resultado:[Int] = []
 for i in 0..<10 {
     resultado.append(Int(arc4random_uniform(98) + 10))
 }
@@ -61,7 +61,7 @@ print(resultado)
 var suma = resultado.reduce(0, +)
 print(suma)
 var promedio = suma/2
-print(promedio)
+print(promedio)*/
 
 //hacer un arreglo de diez numeros y determinar cual es el numero  mayor y cual es el numero menord del arreglo
 
@@ -171,7 +171,7 @@ var vengadoresMovies =  ["iron man":3, "capitan america":2, "hulk":2, "thor":2]*
 
 
 
-var categoria = "xx"
+/*var categoria = "xx"
 var sexo = "femenino"
 var edad = 25
 
@@ -188,7 +188,7 @@ if (sexo=="femenino") {
     }
     else {
         categoria = "MB"
-}
+} */
 
 
 /*
@@ -263,13 +263,104 @@ if (sexo=="femenino") {
  switch nombreMes {
  case 1:
  print("este es el mes de enero")
+ 
  case 2:
  print("este es el mes de febrero")
+
  default:
  print("no hay meses")
  break;
  }
  */
+
+
+
+/*var producto = 1
+var precio = 1
+
+
+switch producto {
+    case 0:
+    precio = 25
+    
+case 1:
+    precio = 15
+
+case 2:
+    precio = 10
+
+default:
+    precio = 12
+}
+
+print(precio) */
+
+
+var palabra = 6
+
+
+/*switch palabra {
+    case 0:
+    print("cero")
+    
+    case 1:
+    print("uno")
+    
+    case 2:
+    print("dos")
+    
+    case 3:
+    print("tres")
+    
+    case 4:
+    print("cuatro")
+    
+    case 5:
+    print("cinco")
+    
+    case 6:
+    print("6")
+    
+    case 7:
+    print("7")
+    
+    case 8:
+    print("ocho")
+    
+    case 9:
+    print("9")
+    
+    case 10:
+    print("diez")
+    
+    default:
+    print("esta fuera de rango")
+}
+*/
+
+//EJEMPLOS DE FOR
+
+/*for num in 1...10 {
+    print("Numero\(num)")
+}
+
+for num in 1.stride(through: 10, by: 2) {
+    print("recorremos los numeros\(num)")
+}  */
+
+var diasSemana = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+
+for d in dias {
+    if (d == "miercoles") {
+    print(d)
+    } else {
+        print("no existe en dias")
+    }
+}
+
+
+
+
 
 
 
