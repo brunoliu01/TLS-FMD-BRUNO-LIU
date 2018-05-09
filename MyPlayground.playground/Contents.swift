@@ -359,7 +359,7 @@ for d in dias {
 }     */
 
 
-let number0fLegs = ["spider": 8; "ant": 6, "cat":4]
+let number0fLegs = ["spider": 8, "ant": 6, "cat":4]
 for (animalName, legCount) in number0fLegs {
     print("\(animalName)s have \(legCount) legs")
 }
