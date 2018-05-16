@@ -367,7 +367,74 @@ for (animalName, legCount) in number0fLegs {
 // ants have 6 legs
 // spiders have 8 legs
 // cats have 4 legs
- 
+
+
+//mostrar los numeros que hay entre el 1 y el 100
+
+/*for i in 1 ..< 100 {
+    
+    print (i)
+    
+}
+*/
+
+/*for num in  1 ..< 100 {
+    if( num%2 == 0 ) {
+    print(num)
+    }
+} */
+
+
+/*for  i in 0..<100 {
+    var num = i
+    num = Int(arc4random_uniform(100))
+    print(num)
+} */
+
+
+/*for i in 1 ..< 10  {
+    var s = "*"
+    print(s)
+} */
+
+
+//crear un triangulo de asteriscos
+//forma numero 1
+/*var  triangulo = " "
+
+for i in 1...10 {
+    triangulo = triangulo+"*"
+    print(triangulo)
+} */
+
+//forma numero 2
+/*for i in 1...10 {
+    for j in 1...i {
+    print("*", terminator:"")
+}
+    print("")
+
+}*/
+
+
+// imrpmir rectangulo de asteriscos
+/*for i in 1...10 {
+    for j in 1...10 {
+        print("*", terminator:"")
+    }
+    print("")
+} */
+
+
+for i in 1...10 {
+    for j in 1...10 {
+        print("*", terminator:"")
+    }
+    print("")
+}
+
+
+
 
 
 
